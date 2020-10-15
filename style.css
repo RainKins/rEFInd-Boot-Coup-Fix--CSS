@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Cutive+Mono|Slabo+27px');
+
+body {
+	display: inline-block;
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	background: rgb(237,237,235);
+	line-height: 1.65em;
+	overflow: scroll; 
+	overflow-x: hidden !important;
+	word-wrap: break-word;
+	max-width: 95%;	
+	margin: auto;
+  padding-left: 2.5%;
+}
+
+table, tr, td, tbody {
+	background-color: rgba(170, 204, 255, 0.5);
+  border: 5px solid gray;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+height:auto;
+max-width:95%;
+border: 2px solid #aaccff;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+	}
+
+input {
+	text-align: center;
+	vertical-align: middle;
+}
+
+title {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: rgba(128, 128, 128, 0.308) 50px;
+	font-size: 30px;
+}
+.subhead {
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: -25px;
+}
+
+.navbar {
+	width: 45%;
+  float: left;
+  padding: 5px;
+  border: 5px solid gray;
+  margin: 10px auto;
+	margin-right: 30px;
+	background-color: #aaccff;
+	border-radius: 20px;
+}
+
+.evade_gaurd {
+	float:right; width:55%;
+}
+
+h2 {
+	font-family: 'Bree Serif', serif;
+}
+h4 {
+	font-size: 35px;
+	text-align: center;
+}
+
+.update {
+	font-style: italic;
+}
+
+a {
+	color: black;
+	font-weight:bold;
+	text-decoration-line: none;
+}
+
+pre {
+	overflow-x:auto;
+}
+
+pre, tt {
+	color: white;
+	background-color: black;
+	font-family: 'Cutive Mono', monospace;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+@media (max-width:600px) {
+	body {
+		font-size: 125%;
+		width: 95%;
+		line-height: 1.75em;
+		margin: 0 10px 0 10px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	p {
+		column-count: auto;
+	}
+
+	.update {
+		text-align: center;
+	}
+
+	.navbar {
+		block-overflow: inherit;
+		text-align: left;
+		width: 90%;
+		margin-left: 2%;
+	}
+
+	table {
+		width: 100%;
+		border: none;
+    overflow-x: auto;
+    display: block;
+		margin: 0 auto;
+		white-space: nowrap;
+    }
+
+	img {
+		width: 100%;
+	}
+}
